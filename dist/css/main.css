@@ -219,7 +219,6 @@ main#home .portrait {
 	grid-area: bioimage;
 	margin: auto;
 	border-radius: 50%;
-	border: #13a8e2 3px solid;
 	height: auto;
 	width: auto;
 	max-width: 245px;
@@ -400,10 +399,14 @@ main#home .portrait {
 		height: 25vh;
 		transform: translate3d(100%, 0, 0);
 	}
-	.menu-branding .portrait {
+	.menu-branding .portrait img {
 		background: url("../img/portrait_small.jpg");
-		width: 150px;
-		height: 150px;
+		width: 140px;
+		height: 140px;
+	}
+	.menu-branding .portrait {
+		width: 145px;
+		height: 145px;
 	}
 	.about-info {
 		grid-template-areas:
