@@ -204,6 +204,27 @@ main#home {
 main#home h1 {
 	margin-top: 20vh;
 }
+main#home img {
+	grid-area: bioimage;
+	margin: auto;
+	border-radius: 50%;
+	border: #13a8e2 3px solid;
+	height: auto;
+	width: auto;
+	max-width: 245px;
+	max-height: 245px;
+}
+
+main#home .portrait {
+	grid-area: bioimage;
+	margin: auto;
+	border-radius: 50%;
+	border: #13a8e2 3px solid;
+	height: auto;
+	width: auto;
+	max-width: 245px;
+	max-height: 245px;
+}
 
 .about-info {
 	display: grid;
