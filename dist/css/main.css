@@ -190,6 +190,7 @@ main {
 }
 main .icons {
 	margin-top: 1rem;
+	margin-bottom: 1rem;
 }
 main .icons a {
 	padding: 0.4rem;
@@ -202,7 +203,7 @@ main#home {
 	overflow: hidden;
 }
 main#home h1 {
-	margin-top: 20vh;
+	margin-top: 1vh;
 }
 main#home img {
 	grid-area: bioimage;
