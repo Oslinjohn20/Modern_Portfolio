@@ -55,6 +55,11 @@ main {
 
 	.icons {
 		margin-top: 1rem;
+		font-size: 3em;
+		i {
+			color: #13a8e2;
+			padding: 2px;
+		}
 
 		a {
 			padding: 0.4rem;
@@ -65,12 +70,31 @@ main {
 			}
 		}
 	}
+	.portrait {
+		grid-area: "bioimage";
+		max-width: 245px;
+		max-height: 245px;
+		border-radius: 50%;
+		text-align: center;
+		margin: auto;
+
+		img {
+			grid-area: "bioimage";
+			margin: auto;
+			height: auto;
+			width: auto;
+			max-width: 245px;
+			max-height: 245px;
+			border: #13a8e2 3px solid;
+			border-radius: 50%;
+		}
+	}
 
 	&#home {
 		overflow: hidden;
 
 		h1 {
-			margin-top: 20vh;
+			margin-top: -7vh;
 		}
 	}
 }
@@ -108,13 +132,14 @@ main {
 
 		button {
 			color: #fff;
-			background-color: $primary-color;
-			border: 2px solid $secondary-color;
+			background-color: $secondary-color;
+			border-radius: 50%;
+			// border: 2px solid $secondary-color;
 			padding: 12px 30px;
 			font-size: 15px;
-			animation-name: click-btn;
-			animation-duration: 2s;
-			animation-iteration-count: infinite;
+			// animation-name: click-btn;
+			// animation-duration: 2s;
+			// animation-iteration-count: infinite;
 		}
 	}
 
