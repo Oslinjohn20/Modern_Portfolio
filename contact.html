@@ -61,25 +61,46 @@
 			</h1>
 			<h2 class="sm-heading">This is how you can reach me...</h2>
 			<div class="boxes">
-				<div>
-					<a href="#" class="fa fa-google"></a>
-					@ ossiekcjohnson@gmail.com
-				</div>
-				<div><span class="text-secondary">Phone: </span> 071 2482443</div>
-				<div>
-					<span class="text-secondary">Address: </span> Cape Town Western Cape
-				</div>
-				<div>
-					<a
-						href="https://linkedin.com/in/oslin-johnson-9400691ab"
-						class="fa fa-linkedin"
-					></a>
-				</div>
+				<form action="https://formspree.io/f/xvowbjaj" method="POST">
+					<label>
+						Your email:
+						<input type="text" name="_replyto" />
+					</label>
+					<label>
+						Your message:
+						<textarea name="message"></textarea>
+					</label>
+
+					<!-- your other form fields go here -->
+
+					<button class="btn" type="submit">Send</button>
+				</form>
+			</div>
+
+			<div class="icons">
+				<a href="#">
+					<i class="fab fa-twitter fa-x5"></i>
+				</a>
+				<a href="https://linkedin.com/in/oslin-johnson-9400691ab">
+					<i class="fab fa-linkedin fa-x5"></i>
+				</a>
+				<a href="https://github.com/Oslinjohn20?tab=repositories">
+					<i class="fab fa-github fa-x5"></i>
+				</a>
 			</div>
 		</main>
 
 		<footer id="main-footer">Copyright &copy; 2020</footer>
 
 		<script src="js/main.js"></script>
+		<script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+		<script>
+			window.formbutton =
+				window.formbutton ||
+				function () {
+					(formbutton.q = formbutton.q || []).push(arguments);
+				};
+			formbutton("create", { action: "https://formspree.io/f/xvowbjaj" });
+		</script>
 	</body>
 </html>
