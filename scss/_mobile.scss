@@ -49,6 +49,15 @@
 			background: url("../img/portrait_small.jpg");
 			width: 145px;
 			height: 145px;
+
+			img{
+				border-radius: 50%;
+                object-fit: cover;
+                height: auto;
+                width: auto;
+                max-width: 140px;
+                max-height: 140px;
+			}
 		}
 	}
 
