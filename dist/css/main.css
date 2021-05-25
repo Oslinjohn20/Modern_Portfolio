@@ -105,7 +105,7 @@ body {
   color: #fff;
   height: 100%;
   margin: 0;
-  font-family: "Sansita Swashed";
+  font-family: "Roboto", sans-serif;
   line-height: 1, 5; }
   body#bg-image {
     background: url(../image/background.jpg);
@@ -126,7 +126,8 @@ h2,
 h3 {
   margin: 0;
   font-weight: 400;
-  padding: 2px; }
+  padding: 2px;
+  font-family: "Sans Swashed"; }
   h1.lg-heading,
   h2.lg-heading,
   h3.lg-heading {
