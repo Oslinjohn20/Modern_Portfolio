@@ -50,24 +50,22 @@
 			width: 145px;
 			height: 145px;
 
-			img{
+			img {
 				border-radius: 50%;
-                object-fit: cover;
-                height: auto;
-                width: auto;
-                max-width: 140px;
-                max-height: 140px;
+				object-fit: cover;
+				height: auto;
+				width: auto;
+				max-width: 140px;
+				max-height: 140px;
 			}
 		}
 	}
 
 	.about-info {
 		grid-template-areas:
-			"bioimage"
 			"bio"
 			"job1"
-			"job2"
-			"job3";
+			"job2";
 
 		grid-template-columns: 1fr;
 	}
